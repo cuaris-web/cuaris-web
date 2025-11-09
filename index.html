@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cuaris — Automation & Controls</title>
+  <meta name="description" content="Cuaris — Industrial automation, PLC/SCADA, drives, and commissioning. Switzerland & EU.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo">Cuaris</div>
+    <nav class="nav">
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a class="lang" href="#cz">CZ</a>
+      <a class="lang" href="#de">DE</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-inner">
+      <h1>Industrial Automation & Controls</h1>
+      <p>PLC (Siemens S7‑1200/TIA), VFDs (Schneider ATV320/340), robot integration, commissioning. Based in Switzerland & the EU.</p>
+      <div class="cta">
+        <a href="#contact" class="btn">Request a quote</a>
+        <a href="#services" class="btn ghost">See services</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <div class="container">
+      <h2>Services</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>PLC Programming</h3>
+          <p>Siemens LOGO! & S7‑1200/TIA V20, safety (1214FC), HMI, WebHMI.</p>
+        </div>
+        <div class="card">
+          <h3>Drives & Motion</h3>
+          <p>Schneider ATV320/340, Profinet (VW3A3627), combined I/O, ramps & safety.</p>
+        </div>
+        <div class="card">
+          <h3>SCADA & Networking</h3>
+          <p>Profinet, VLANs, network diagnostics, documentation & FAT/SAT.</p>
+        </div>
+        <div class="card">
+          <h3>Consulting</h3>
+          <p>GAMP5 pharma, commissioning support, troubleshooting & audits.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section alt">
+    <div class="container">
+      <h2>Selected Work</h2>
+      <ul class="bullets">
+        <li>ATV320 combined mode: Profinet + terminal I/O with Telegram 101/102.</li>
+        <li>WebHMI on S7‑1200 for small utilities and diagnostics.</li>
+        <li>Drive safety stop strategies (STO, freewheel stop, DC injection).</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="cz" class="section">
+    <div class="container">
+      <h2>Česky</h2>
+      <p>Automatizace, PLC a měniče. Realizace v EU i Švýcarsku. Fakturace jako OSVČ.</p>
+    </div>
+  </section>
+
+  <section id="de" class="section alt">
+    <div class="container">
+      <h2>Deutsch</h2>
+      <p>Industrieautomation, SPS & Antriebe. Einsätze in der Schweiz und EU.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:roman@cuaris.eu">roman@cuaris.eu</a> • LinkedIn: <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">Profile</a></p>
+      <p>Prefer another language? EN / CZ / DE</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> Cuaris. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
